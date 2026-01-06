@@ -42,7 +42,7 @@ The system is designed to operate reliably in **low-connectivity maritime enviro
 
 ## 🏗️ System Architecture (High Level)
 
-```text
+
 [Sensor Simulator / IoT Devices]
             ↓ (MQTT)
       [Ingestion Service]

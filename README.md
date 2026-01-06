@@ -81,13 +81,7 @@ The system is designed to operate reliably in **low-connectivity maritime enviro
 ## 📁 Project Structure
 
 
-VeleroGuard-AI/
-│
-├── backend/          # FastAPI backend, AI logic, MQTT ingestion
-├── frontend/         # Web dashboard (MVP)
-├── docs/             # Architecture, API docs, hardware notes
-├── data/             # Sample datasets and simulations
-└── README.md
+![Project Structure Diagram](docs/diagram.png)
 
 
 ## 🚧 Project Status

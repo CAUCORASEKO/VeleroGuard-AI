@@ -80,7 +80,7 @@ The system is designed to operate reliably in **low-connectivity maritime enviro
 
 ## 📁 Project Structure
 
-```text
+
 VeleroGuard-AI/
 │
 ├── backend/          # FastAPI backend, AI logic, MQTT ingestion

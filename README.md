@@ -145,26 +145,6 @@ curl -X POST http://127.0.0.1:8000/sensors/ingest \
 
 ---
 
-## 🛠️ Tech Stack
-
-### Backend
-- Python
-- FastAPI
-- MQTT (Mosquitto / public brokers for development)
-- Scikit-learn (anomaly detection)
-- InfluxDB (planned, time-series storage)
-- Redis (planned, real-time alerts/cache)
-
-### Frontend
-- Web dashboard (React – planned structure)
-- Real-time updates via WebSockets
-
-### DevOps / Tooling
-- Docker & Docker Compose
-- GitHub for version control and collaboration
-
----
-
 ## 📁 Project Structure
 
 

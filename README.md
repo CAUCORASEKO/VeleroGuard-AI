@@ -132,7 +132,6 @@ http://127.0.0.1:8000/docs
 ## 📡 Usage Example
 
 ```markdown
-## 📡 Usage Example
 
 Send a sensor reading to the backend using a simple HTTP request:
 

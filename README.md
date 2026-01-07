@@ -58,6 +58,15 @@ The system is designed to operate reliably in **low-connectivity maritime enviro
 
 ---
 
+## 🛥️ Physical & System Architecture (Onboard)
+
+High-level overview of how sensors, edge computing, and user interfaces are deployed on a sailing vessel.
+
+![VeleroGuard System Diagram](docs/system_overview.png)
+
+
+---
+
 ## 📸 Screenshots
 
 ### Backend running & API documentation

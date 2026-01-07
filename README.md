@@ -83,6 +83,71 @@ The simulator generates a baseline, simulates normal operation, and injects a co
 
 ---
 
+## 🛠️ Technologies Used
+
+| Layer | Technology | Purpose |
+|------|-----------|---------|
+| Backend API | Python, FastAPI | Sensor ingestion, API layer, and data validation |
+| Edge Intelligence | Python (statistics / ML-ready) | Real-time anomaly detection at the edge |
+| Messaging | MQTT (planned) | Communication with onboard IoT sensors |
+| Data Storage | In-memory (MVP), InfluxDB (planned) | Time-series sensor data storage |
+| Frontend | Web Dashboard (planned) | Data visualization and alerts |
+| Tooling | Docker, GitHub | Development, version control, and deployment |
+
+
+---
+
+## 🚀 Installation & Setup
+
+### Backend Setup
+
+Clone the repository and create a virtual environment:
+
+```bash
+git clone https://github.com/your-username/VeleroGuard-AI.git
+cd VeleroGuard-AI
+python -m venv .venv
+source .venv/bin/activate
+pip install -r backend/requirements.txt
+
+```
+
+### Start the backend server:
+
+```bash
+cd backend
+uvicorn app.main:app --reload
+
+```
+
+### Once running, the API documentation will be available at:
+
+```bash
+http://127.0.0.1:8000/docs
+
+```
+
+---
+
+## 📡 Usage Example
+
+```markdown
+## 📡 Usage Example
+
+Send a sensor reading to the backend using a simple HTTP request:
+
+```bash
+curl -X POST http://127.0.0.1:8000/sensors/ingest \
+  -H "Content-Type: application/json" \
+  -d '{
+    "sensor_id": "mast_accelerometer_01",
+    "sensor_type": "vibration",
+    "value": 4.5
+  }'
+
+ ``` 
+
+---
 
 ## 🛠️ Tech Stack
 

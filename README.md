@@ -130,10 +130,7 @@ http://127.0.0.1:8000/docs
 ---
 
 ## 📡 Usage Example
-
-```markdown
-
-Send a sensor reading to the backend using a simple HTTP request:
+### Send a sensor reading to the backend using a simple HTTP request:
 
 ```bash
 curl -X POST http://127.0.0.1:8000/sensors/ingest \

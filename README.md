@@ -58,6 +58,23 @@ The system is designed to operate reliably in **low-connectivity maritime enviro
 
 ---
 
+## 📸 Screenshots
+
+### Backend running & API documentation
+FastAPI backend running locally, receiving sensor data and exposing documented endpoints via Swagger UI.
+
+![Backend and API](docs/screenshots/backend_and_swagger.png)
+
+---
+
+### Sensor simulator output
+The simulator generates a baseline, simulates normal operation, and injects a controlled anomaly detected in real time.
+
+![Sensor simulator output](docs/screenshots/simulator_output.png)
+
+---
+
+
 ## 🛠️ Tech Stack
 
 ### Backend
